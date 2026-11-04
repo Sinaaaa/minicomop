@@ -1,4 +1,4 @@
-# minicomp
+# minicomop
 
 A minimal X11 compositing manager derived from `xfwm4`'s `compositor.c`.
 
@@ -14,7 +14,7 @@ A minimal X11 compositing manager derived from `xfwm4`'s `compositor.c`.
 
 ## Non-Goals (What it does *not* do)
 
-`minicomp` is strictly a minimal compositing manager meant to run alongside any window manager that lacks built-in compositing. It intentionally omits:
+`minicomop` is strictly a minimal compositing manager meant to run alongside any window manager that lacks built-in compositing. It intentionally omits:
 
 - Drop shadows
 - Desktop zoom
@@ -35,7 +35,7 @@ sudo pacman -S libx11 libxext libxcomposite libxdamage libxfixes libxrender libx
 Compile using `gcc` and `pkg-config`:
 
 ```bash
-gcc -O2 -Wall -o minicomp minicomp.c \
+gcc -O2 -Wall -o minicomop minicomop.c \
     $(pkg-config --cflags --libs x11 xext xcomposite xdamage xfixes xrender xpresent epoxy)
 ```
 
@@ -46,7 +46,7 @@ gcc -O2 -Wall -o minicomp minicomp.c \
 ## Usage
 
 ```bash
-minicomp [-d display] [--vblank=auto|glx|xpresent|off]
+minicomop [-d display] [--vblank=auto|glx|xpresent|off]
 ```
 
 ## License & Acknowledgments
