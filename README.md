@@ -1,6 +1,6 @@
 # minicomop
 
-A minimal X11 compositing manager derived from `xfwm4`'s `compositor.c`.
+A minimal X11 compositing manager derived from `xfwm4`'s `compositor.c`. (yes, Claude did it bohoo)
 
 ## Disclaimer
 
