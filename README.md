@@ -4,7 +4,7 @@ A minimal X11 compositing manager derived from `xfwm4`'s `compositor.c`.
 
 ## Disclaimer
 
-There is a reason why the compositor is integrated into XFWM & is not standalone. So while this is tremendously better than picom if the only goal is to fight screen tearing on an ancient computer, some WM level adjustments / integrations may be needed. (in my case had add an additional wibar redraw in AwesomeWM)
+There is a reason why the compositor is integrated into XFWM & is not standalone. So while this is tremendously better than picom if the only goal is to fight screen tearing on an ancient computer, some WM level adjustments / integrations may be needed. (in my case had to add an additional wibar redraw pass in AwesomeWM)
 
 ## Features
 
